@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html{
+    --gray: #3d464d; /* Aussi pour les textes*/ 
+    --graylight: #f5f5f5; 
+    --orange: #ffd334; 
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
+    align-items: center;
+    align-content: center;
+}
+
+.multi{
+    background-color:var(--gray);
+    color: var(--orange);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+.shop{
+    background-color: var(--orange);
+    color: var(--gray);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.barre-recherche{
+    width: 23rem;
+    /* border: #3d464d; */
+}
+
+.optionnav1{
+    margin-right: 9px ;
+}
+
+/* .barre2{
+    margin-top: 15px;
+} */
+.sav{
+    align-items: right;
+}
+
+.customer, .numero {
+    float: right;
+}
+
+.ex {
+    align-items: center;
+    align-content: center;
+}
+
+.myform {
+    width: 65%;
+}
