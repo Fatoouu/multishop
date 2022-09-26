@@ -8,97 +8,58 @@ html{
     --orange: #ffd334; 
 }
 
-.logo{
+.border {border: 1px solid red;}
+
+/* Paramétrage des champs */
+
+input[type="submit"], 
+button[type="button"], 
+button[type="submit"] {
+    border: none;
+    appearance: button;
+
+}
+
+input[type="text"], 
+input[type="search"] {
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+
+/* Première navbar */
+.navbar-1 {
+    background-color: var(--graylight);
+}
+
+/* Deuxième navbar */
+.navbar-2 .search   {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.navbar-2 .multi, .navbar-2 .shop  {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.8rem;
-    align-items: center;
-    align-content: center;
-    /* margin-bottom: 10px; */
 }
-
-.multi{
-    background-color:var(--gray);
+.navbar-2 .multi {
     color: var(--orange);
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    /* margin-bottom: 10px; */
-
-}
-.shop{
-    background-color: var(--orange);
-    color: var(--gray);
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-
-.barre-recherche{
-    width: 23rem;
-    /* border: #3d464d; */
-}
-
-.optionnav1{
-    margin-right: 9px ;
-}
-
-/* .barre2{
-    margin-top: 15px;
-} */
-.sav{
-    align-items: right;
-}
-
-.customer, .numero {
-    float: right;
-}
-
-.ex {
-    align-items: center;
-    align-content: center;
-}
-
-.myform {
-    width: 65%;
-}
-
-.entete{
-    margin-top: 35px;
-}
-
-.numero{
-    font-weight: bold;
-}
-
-.categories{
-    background-color: var(--orange); 
-    padding: 0 12rem 0 2rem;
-    /* padding-left: 4rem; */
-}
-
-.navbar2{
     background-color: var(--gray);
-    padding-left: 4rem;
+}
+.navbar-2 .shop {
+    color: var(--gray);
+    background-color: var(--orange);
 }
 
-.navbar2 .liste {
-    display: inline-flex;
-    margin-left: 2em;
+.card-search {
+    display: flex;
 }
-
-.navbar2 .liste li a {
-    margin-left: .8em;
-}
-
-.test {
-    display: inline-flex;
-}
-
-.test .fa-heart {
-    color: var(--orange);
-}
-
-.test .fa-cart-shopping{
-    color: var(--orange);
+.card-search .search {
+    flex: 1 1 auto;
 }
