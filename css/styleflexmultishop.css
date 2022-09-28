@@ -163,25 +163,46 @@ body {
   /* Fin des sections navbar */
 
   /* Début section bannière photo */
-/* .image-right{
-    display: ;
-} */
+.image{
+    padding-top: 2em;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.carousel-3 {
+    width: 100%;
+}
 
 .offer-1{
-    border: 1px solid red;
     object-fit: cover;
-    width: 120%;
+    width: 90%;
     height: 100%;
+    margin-left: 1em;
+    margin-bottom: 1em;
     /* margin-bottom:-2em; */
 }
 .offer-2{
-    border: 1px solid red;
     object-fit: cover;
     /* margin-top: -2em; */
-    width: 120%;
-    height: 100%;
+    width: 90%;
+    max-height: 100%;
+    margin-left: 1em;
+    margin-top: 1em;
 }
-.carousel-3{
-    width: 80%;
-    height: 80%;
+
+
+/* A SUPPRIMER A LA FIN .banniere {
+    margin: 0 auto;
+    width: 90%;
+    background-color: blue;
+} */
+
+.check{
+    margin: 0 auto;
+    width: 90%;
+    display: inline-flex;
+}
+.test {
+    margin: 1em;
+    width: 100%;
 }
