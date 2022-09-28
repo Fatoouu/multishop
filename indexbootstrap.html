@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+        <meta name="site" content="Multishop">
+        <meta name="auteur" content="Fatou">
+        <link rel="stylesheet" href="css/stylemultishop.css">
+        <link rel="stylesheet" href="css/flexbox.css">
+        <title> Multishop </title>
+    </head>
+    <body>
+       
+        <header>
+            <!-- Première navbar -->
+            <nav class="navbar navbar-expand-md navbar-1">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQs</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <div class="my-row">
+                                <div class="col-4 login">
+                                    <div class="col-4">
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                              <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Compte </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">Connexion</a></li>
+                                                  <li><a class="dropdown-item" href="#">Inscription</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 devise">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                          <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">USD</a>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">USD</a></li>
+                                              <li><a class="dropdown-item" href="#">EURO</a></li>
+                                              <li><a class="dropdown-item" href="#">RU</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                          <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">FR</a></li>
+                                              <li><a class="dropdown-item" href="#">ES</a></li>
+                                              <li><a class="dropdown-item" href="#">IT</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Deuxième navbar -->
+            <nav class="container-fluid navbar-2 mt-3">
+                <div class="container">
+                    <div class="my-row">
+                        <div class="col-2">
+                            <div class="my-row">
+                                <div class="col-6 multi">Multi</div>
+                                <div class="col-6 shop">Shop</div>
+                            </div>
+                        </div>
+                        <div class="col-8 search">
+                            <form action="">
+                                <div class="card-search">
+                                    <input type="search" name="search" id="search" class="search" placeholder="Rechercher un produit">
+                                    <button type="submit"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-2 sav">
+                            <div class="my-row g-0">
+                                <div class="col-12"><span class="customer"> Customer Service </span></div>
+                                <div class="col-12"><span class="numero"> +012 345 6789 </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Troisième navbar -->
+            <nav class="navbar-3 navbar-expand">
+                <div class="container">
+                    <div class="row">
+                        <ul class="navbar-nav">
+                            <!-- Section categories troisieme navbar -->
+                            <div class="col-md-4 categories">
+                                <div class="row">
+                                    <div class="div col-md-6"><i class="fa fa-bars"></i>  Catégories</div>
+                                    <div class="div col-md-6">
+                                        <select class="nav-item dropdown">
+                                            <option value="Categories" ></option>
+                                            <option> Printemps </option>
+                                            <option> Eté </option>
+                                            <option> Hiver </option>
+                                            <option> Automne </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            <!-- Section liste troisieme navbar -->
+                            <div class="col-md-6 card-links" style="display: inline-flex;">
+                                <li class="nav-item">
+                                    <a class="nav-link home" href="#"> Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Shop </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Shop Detail </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown dropdown-toggle" href="#"> Page </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Contact </a>
+                                </li>
+                            </div>
+
+                            <!-- Section Shop troisieme navbar -->
+                            <div class="col-md-2 bar-icons">
+                                <div class="row icons">
+                                    <div class="col-md-6 ml-2 text-left"><i class="fa fa-heart"></i> <span>0</span></div>
+                                    <div class="col-md-6 text-right"><i class="fas fa-shopping-cart"></i> <span>0</span></div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Section banniere photo -->
+            <!-- Carousel -->
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="my-row">
+                        <div class="col-7 image-left">
+                            <div id="carousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="images/carousel-3.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/offer-1.jpg" alt="Second slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Précédent</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                         <!-- Fin Carousel -->
+                        <div class="col-5 image-right">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="images/offer-1.jpg" alt="image" class="offer-1">
+                                </div>
+                                <div class="col-12">
+                                    <img src="images/offer-2.jpg" alt="image" class="offer-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> <!-- Fin banniere photo -->
+
+
+            <!-- Debut section quality compagny -->
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="my-row">
+                        <div class="col-12">
+                            <div class="col-3 quality-product">
+                                <span><i class="fa fa-check" style="color: orange;"></i> Quality product </span>
+                            </div>
+                            <div class="col-3 free-shipping">
+                               <span><i class="fa fa-truck-fast"></i> free shipping</span> 
+                            </div>
+                            <div class="col-3 day-return">
+                                <i class="fa fa-arrow-right-arrow-left"></i> 14-Day Return
+                            </div>
+                            <div class="col-3 support">
+                                <i class="fa fa-phone-volume" style="color: orange;"></i> 24/7 Support
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>   <!-- Fin section quality compagny -->
+
+
+
+
+
+
+
+        </header>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.bundle.min.js" integrity="sha512-1TK4hjCY5+E9H3r5+05bEGbKGyK506WaDPfPe1s/ihwRjr6OtL43zJLzOFQ+/zciONEd+sp7LwrfOCnyukPSsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>

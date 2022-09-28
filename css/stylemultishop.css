@@ -145,15 +145,40 @@ input[type="search"] {
     padding-top: 1em;
 }
 
+/* Section gauche bannière photo  */
+/* .image-right{
+    display: ;
+} */
+
 .offer-1{
+    border: 1px solid red;
     object-fit: cover;
     width: 100%;
-    margin-bottom: 25px;
+    height: 70%;
+    margin-bottom:-1em;
 }
 .offer-2{
+    border: 1px solid red;
     object-fit: cover;
+    margin-top: -1em;
     width: 100%;
+    height: 70%;
 }
+
+/* Section quality compagny */
+.quality-product{
+    border: 1px solid red;
+}
+.free-shipping{
+    border: 1px solid red;
+}
+.day-return{
+    border: 1px solid red;
+}
+.support{
+    border: 1px solid red;
+}
+
 
 
 /* Faire une ligne horizontale de séparation */

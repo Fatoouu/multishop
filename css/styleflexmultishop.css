@@ -1,0 +1,162 @@
+html{
+    --gray: #3d464d; /* Aussi pour les textes*/ 
+    --graylight: #f5f5f5; 
+    --orange: #ffd334; 
+}
+body {
+    background-color: #FFFFFF;
+    color: #3D464D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  .my-row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    /* top: 0;
+    left: 0; */
+}
+  .navbar {
+    width: 100%;
+    display: flex;
+    color: #3D464D;
+    padding: 0.3rem 0 0.3rem 0;
+    align-items: center;
+    align-content: center;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+  }
+  .navbar .navbar__menu .navbar__menu--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .navbar__menu .navbar__menu--list .navbar__menu--item {
+    display: inline-flex;
+    margin: 0 0.5rem;
+  }
+  .navbar .navbar__menu .navbar__menu--list .navbar__menu--item .navbar__menu--link {
+    text-decoration: none;
+    color: #3D464D;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+  .navbar .navbar__menu .navbar__menu--list .navbar__menu--item .navbar__menu--link:hover {
+    color: #3D464D;
+  }
+  .navbar2 {
+    padding: 2vh 0 2vh 0;
+  }
+  .navbar2 .multi {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #3D464D;
+  }
+  .navbar2 .multi span {
+    color: #FFD334;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navbar2 .shop {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FFD334;
+  }
+  .navbar2 .shop span {
+    color: #3D464D;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navbar2 .card__search {
+    width: 70%;
+  }
+  .navbar2 .card__search .search {
+    display: flex;
+  }
+  .navbar2 .card__search .search .input__search {
+    flex: 1 1 auto;
+  }
+  .navbar2 .card__search .search .btn__search {
+    border-left: none;
+  }
+  .navbar2 .card__search .fa-search {
+    color: #FFD334;
+  }
+  .navbar2 .service-customer span.service {
+    color: #3D464D;
+    float: right;
+    padding-right: 5px;
+  }
+  .navbar2 .service-customer span.phone {
+    font-weight: bold;
+    color: #3D464D;
+    float: right;
+    padding-right: 5px;
+  }
+  .navbar3 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #FFD334;
+    background-color: #3D464D;
+  }
+  .navbar3 .navbar3__card--select {
+    color: #3D464D;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1em;
+    background-color: #FFD334;
+  }
+  .navbar3 .navbar3__card--select select {
+    border: none;
+    background-color: #FFD334;
+  }
+  .navbar3 .navbar3__card--link .navbar3__card--list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar3 .navbar3__card--link .navbar3__card--list .navbar3__card--item {
+    display: inline-flex;
+    margin: 0 0.5rem;
+  }
+  .navbar3 .navbar3__card--link .navbar3__card--list .navbar3__card--item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+  .navbar3 .navbar3__card--icons .card-icons {
+    color: #FFD334;
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+  }
+  .navbar3 .navbar3__card--icons .card-icons .icons-links {
+    text-decoration: none;
+    color: #FFD334;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+  .navbar3 .navbar3__card--icons .card-icons .icons-links span {
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 0.09rem 0.3rem 0.07rem;
+  }
