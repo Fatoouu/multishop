@@ -160,3 +160,28 @@ body {
     font-size: 1rem;
     padding: 0.09rem 0.3rem 0.07rem;
   }
+  /* Fin des sections navbar */
+
+  /* Début section bannière photo */
+/* .image-right{
+    display: ;
+} */
+
+.offer-1{
+    border: 1px solid red;
+    object-fit: cover;
+    width: 120%;
+    height: 100%;
+    /* margin-bottom:-2em; */
+}
+.offer-2{
+    border: 1px solid red;
+    object-fit: cover;
+    /* margin-top: -2em; */
+    width: 120%;
+    height: 100%;
+}
+.carousel-3{
+    width: 80%;
+    height: 80%;
+}
