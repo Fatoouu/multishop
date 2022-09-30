@@ -171,12 +171,10 @@ body {
 .left {
   padding-right: 0.9rem;
 }
-
 .carousel-3 {
   width: 100%;
   object-fit: cover;
 }
-
 .offer-1 {
   object-fit: cover;
   width: 100%;
@@ -220,11 +218,126 @@ body {
   display: inline-block;
   position: relative;
   top: -0.7em;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 1.1em;
+  background-color: var(--graylight);
+  margin-bottom: 4em;
+}
+
+.categorie {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-top: 20em;
+}
+
+/* .photo{ */
+  /* padding-left: 1.5em;
+  margin-right: 1em; */
+  /* width: 30%; */
+  /* background-color: white;
+  margin: 2em;
+  justify-content: left;
+  flex-direction: row;
+} */
+.photo2{
+  padding-left: 1.5em;
+  width: 90%;
+  background-color: white;
+  margin: 2em;
+  justify-content: left;
+  /* display: inline-flex; */
+}
+.photo3{
+  padding-left: 1.5em;
+  width: 90%;
+  background-color: white;
+  margin: 2em;
+  justify-content: left;
+  /* display: inline-flex; */
+}
+.titre-1{
+  font-weight: bold;
+}
+/* Fin section catégorie */
+
+/* Début section featured products */
+.line2{
+  height: 1px;
+  width: 100%;
+  border: 1px solid #ccc;
+  text-align: left;
+  overflow: visible;
+  background-color: white;
+}
+.line2:before{
+  content: "Featured Products";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
   font-weight: bold;
   text-transform: uppercase;
   padding: 0 1.1em;
   background-color: var(--graylight);
 }
+.futur-photo1{
+  padding-left: 2em;
+  width: 100%;
+  background-color: white;
+  margin: 1em;
+  justify-content: left;
+  display: inline-flex;
+}
+/* Pour les étoiles toujours dans la section featured products */
+.fa-star {
+	color: var(--gray);
+	cursor: pointer;
+	padding: 0.1rem;
+}
+.fa-star.gold {
+	color: #ffdc0f;
+}
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stars {
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1em;
+}
 
-.photo
+.futur-photo2{
+  padding-left: 2em;
+  width: 100%;
+  background-color: white;
+  margin: 1em;
+  justify-content: left;
+  display: inline-flex;
+}
+.ancien-prix{
+  text-decoration:line-through ;
+}
+/* Fin section featured products */
+
+/* Début section bannière photo 2 */
+/* .banniere-2{
+  display: inline-flex;
+  width: 100%;
+  padding: 0.8em;
+  margin: 0.8em;
+} */
+
+.banniere-2{
+  display: inline-flex;
+  padding-top: 2em;
+  padding-left: 2em;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 0.9rem; 
+}
+/* Fin section banniere photo 2 */
