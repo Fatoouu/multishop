@@ -1,5 +1,5 @@
-html{
-  --gray: #3d464d; /* Aussi pour les textes*/ 
+/* html{
+  --gray: #3d464d; Aussi pour les textes
   --graylight: #f5f5f5; 
   --orange: #ffd334; 
 }
@@ -18,10 +18,38 @@ body {
   align-items: center;
   align-content: center;
   margin: 0;
-  padding: 0;
+  padding: 0; */
   /* top: 0;
   left: 0; */
+/* } */
+
+html {
+  --gray: #3D464D;
+  --gray-light: #f5f5f5;
+  --orange: #ffd334;
+  font-family:Arial, Helvetica, sans-serif;
 }
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--gray-light);
+}
+.my-row  {
+  display: flex;
+  gap: 2.2rem; /* lespace entre les items*/
+  flex-direction: row; /*row permet daligner les elements sur une meme ligne*/
+  flex-wrap: nowrap; /*wrap permet de passer à la ligne si les elements ne tiennent pas sur une ligne */
+  align-items: center; /*centre des elements sur la ligne */
+  align-content: center;
+}
+[class*="col-"] {
+  /*flex: 1; /* permet de prendre toute la place disponible */
+  width: 100%;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -203,70 +231,67 @@ body {
   font-weight: bold;
 }
 
+.fa-solid {
+  color: var(--orange);
+  font-size: 2em;
+}
+
 
 /* Début section catégorie */
 .line1{
   height: 1px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   border: 1px solid #ccc;
   text-align: left;
   overflow: visible;
   background-color: white;
+
 }
+
 .line1:before{
   content: "Catégories";
   display: inline-block;
   position: relative;
   top: -0.7em;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
   padding: 0 1.1em;
-  background-color: var(--graylight);
-  margin-bottom: 4em;
+  background-color: var(--gray-light);
+  color: var(--gray);
 }
 
 .categorie {
-  width: 90%;
   margin: 0 auto;
-  border: 1px solid red;
-  margin-top: 20em;
+  width: 90%;
+  padding-top: 20px;
+  margin-bottom: 1em;
 }
 
-/* .photo{ */
-  /* padding-left: 1.5em;
-  margin-right: 1em; */
-  /* width: 30%; */
-  /* background-color: white;
-  margin: 2em;
-  justify-content: left;
-  flex-direction: row;
-} */
-.photo2{
-  padding-left: 1.5em;
-  width: 90%;
+.rectangle {
   background-color: white;
-  margin: 2em;
-  justify-content: left;
-  /* display: inline-flex; */
 }
-.photo3{
-  padding-left: 1.5em;
-  width: 90%;
-  background-color: white;
-  margin: 2em;
-  justify-content: left;
-  /* display: inline-flex; */
+
+.categorie img {
+  width: 80%;
 }
+
 .titre-1{
   font-weight: bold;
+  color: var(--gray);
+}
+
+.titre-2 {
+  color: #a5a5a5;
 }
 /* Fin section catégorie */
 
 /* Début section featured products */
 .line2{
   height: 1px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   border: 1px solid #ccc;
   text-align: left;
   overflow: visible;
@@ -277,12 +302,22 @@ body {
   display: inline-block;
   position: relative;
   top: -0.7em;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
   padding: 0 1.1em;
-  background-color: var(--graylight);
+  background-color: var(--gray-light);
+  color: var(--gray);
 }
+
+.featuredproducts {
+  width: 90%;
+  margin: 0 auto;
+}
+.featuredproducts img{
+  width: 90%;
+}
+
 .futur-photo1{
   padding-left: 2em;
   width: 100%;
