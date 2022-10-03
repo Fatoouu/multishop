@@ -219,9 +219,8 @@ body {
 
 /* Début section quality compagny */
 .check{
-  width: 100%;
   margin: 0 auto;
-  width: 90%;
+  width: 93%;
   display: inline-flex;
 }
 .quality-product,.free-shipping,.day-return,.support{
@@ -309,20 +308,16 @@ body {
   background-color: var(--gray-light);
   color: var(--gray);
 }
-
 .featuredproducts {
   width: 90%;
   margin: 0 auto;
 }
 .featuredproducts img{
-  width: 90%;
-}
-
-.futur-photo1{
-  padding-left: 2em;
   width: 100%;
-  background-color: white;
-  margin: 1em;
+}
+.futur-photo1{
+  width: 100%;
+  margin-top: 2em;
   justify-content: left;
   display: inline-flex;
 }
@@ -339,20 +334,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+  background-color: white;
 }
 .stars {
   display: inline-flex;
   justify-content: center;
   font-size: 1em;
-}
-
-.futur-photo2{
-  padding-left: 2em;
-  width: 100%;
-  background-color: white;
-  margin: 1em;
-  justify-content: left;
-  display: inline-flex;
 }
 .ancien-prix{
   text-decoration:line-through ;
@@ -360,19 +347,55 @@ body {
 /* Fin section featured products */
 
 /* Début section bannière photo 2 */
-/* .banniere-2{
-  display: inline-flex;
-  width: 100%;
-  padding: 0.8em;
-  margin: 0.8em;
-} */
-
 .banniere-2{
-  display: inline-flex;
   padding-top: 2em;
-  padding-left: 2em;
   margin: 0 auto;
+  width: 90%;
+  padding-bottom: 0.9rem;
+  display: inline-flex;
+  gap: 2.2em;
+}
+.offer-left img{
   width: 100%;
-  padding-bottom: 0.9rem; 
+}
+.offer-right img{
+  width: 100%;
 }
 /* Fin section banniere photo 2 */
+
+/* Début section recent products */
+.line3{
+  height: 1px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-align: left;
+  overflow: visible;
+  background-color: white;
+}
+.line3:before{
+  content: "Recent Products";
+  display: inline-block;
+  position: relative;
+  margin-top: 15px;
+  top: -0.9em;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 1.1em;
+  background-color: var(--gray-light);
+  color: var(--gray);
+}
+/* Fin section recent products */
+
+/* Début section logo */
+.logo{
+  display: inline-flex;
+  width: 90%;
+  margin: 0 auto;
+}
+/* Fin section logo */
+
+/* Footer */
+
+
