@@ -27,6 +27,7 @@ html {
   --gray: #3D464D;
   --gray-light: #f5f5f5;
   --orange: #ffd334;
+  --white: #fff;
   font-family:Arial, Helvetica, sans-serif;
 }
 *,*::after,*::before {
@@ -39,7 +40,7 @@ body {
 }
 .my-row  {
   display: flex;
-  gap: 2.2rem; /* lespace entre les items*/
+  gap: 2.2rem; /* l'espace entre les items*/
   flex-direction: row; /*row permet daligner les elements sur une meme ligne*/
   flex-wrap: nowrap; /*wrap permet de passer à la ligne si les elements ne tiennent pas sur une ligne */
   align-items: center; /*centre des elements sur la ligne */
@@ -398,4 +399,104 @@ body {
 
 /* Footer */
 
+footer{
+  background-color: var(--gray);
+  color: white;
+}
 
+.title{
+  color: var(--gray-light);
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-links ul li {
+  width: 100%;
+  line-height: 1.5;
+}
+.footer-links ul li  {
+  display: block;
+  line-height: 1.5;
+}
+.footer-links li a{
+  width: 100%;
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-links li a:before{
+  content: "> ";
+  color: var(--white);
+  text-decoration: none;
+}
+
+.column{
+  color: var(--gray-light);
+}
+
+.infos {
+  text-transform: none;
+}
+
+.card-footer{
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: row;
+}
+.line4{
+  height: 1px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgb(190, 189, 189);
+  overflow: visible;
+  margin-top: 4em;
+}
+
+.text-footer {
+  padding-bottom: 1em;
+}
+
+.fa-location-dot, .fa-envelope, .fa-phone {
+  color: var(--orange);
+}
+
+form {
+  display: inline-flex;
+}
+form .signup {
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  color: var(--gray);
+  padding: .4em 0 .4em 0;
+  /* width: 5.5em; */
+  margin-left: 18px;
+  /* font-size: 1.06em; */
+}
+
+.barre-search {
+  margin-top: 2em;
+}
+
+.sous-title{
+  margin-top: 1em;
+  color: var(--gray-light);
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-instagram {
+    margin-top: 1em;
+    color: var(--gray);
+    background-color: var(--orange);
+    padding: .9em;
+    margin-right: -20px;
+}
