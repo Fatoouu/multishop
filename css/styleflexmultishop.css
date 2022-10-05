@@ -1,34 +1,11 @@
-/* html{
-  --gray: #3d464d; Aussi pour les textes
-  --graylight: #f5f5f5; 
-  --orange: #ffd334; 
-}
-body {
-  background-color: #FFFFFF;
-  color: #3D464D;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
-.my-row {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  align-items: center;
-  align-content: center;
-  margin: 0;
-  padding: 0; */
-  /* top: 0;
-  left: 0; */
-/* } */
-
 html {
   --gray: #3D464D;
   --gray-light: #f5f5f5;
   --orange: #ffd334;
   --white: #fff;
   font-family:Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth; /* Bouton en bas de page pour remonter */
+
 }
 *,*::after,*::before {
   box-sizing: border-box;
@@ -38,6 +15,9 @@ body {
   padding: 0;
   background-color: var(--gray-light);
 }
+
+.border {border: 1pxx solid red;}
+
 .my-row  {
   display: flex;
   gap: 2.2rem; /* l'espace entre les items*/
@@ -110,7 +90,7 @@ body {
   text-transform: uppercase;
 }
 .navbar2 .card__search {
-  width: 70%;
+  width: 50%;
 }
 .navbar2 .card__search .search {
   display: flex;
@@ -200,6 +180,37 @@ body {
 .left {
   padding-right: 0.9rem;
 }
+.banner{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.specialoffer{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+}
+.save {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+}
+.shopnow{
+  color: var(--gray);
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  text-align: center;
+  border: 1px solid var(--orange);
+  padding: .5em;
+  background-color: var(--orange);
+}
 .carousel-3 {
   width: 100%;
   object-fit: cover;
@@ -230,13 +241,10 @@ body {
   background-color: white;
   font-weight: bold;
 }
-
 .fa-solid {
   color: var(--orange);
   font-size: 2em;
 }
-
-
 /* Début section catégorie */
 .line1{
   height: 1px;
@@ -246,7 +254,6 @@ body {
   text-align: left;
   overflow: visible;
   background-color: white;
-
 }
 
 .line1:before{
@@ -362,6 +369,35 @@ body {
 .offer-right img{
   width: 100%;
 }
+
+.specialoffer2{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+}
+.save2 {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+}
+.shopnow2{
+  color: var(--gray);
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  text-align: center;
+  border: 1px solid var(--orange);
+  padding: .5em;
+  background-color: var(--orange);
+}
+
+
 /* Fin section banniere photo 2 */
 
 /* Début section recent products */
@@ -390,20 +426,43 @@ body {
 /* Fin section recent products */
 
 /* Début section logo */
+
+.card_logo {
+  margin-top: 2rem;
+}
 .logo{
-  display: inline-flex;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+
 }
 /* Fin section logo */
 
 /* Footer */
-
 footer{
   background-color: var(--gray);
   color: white;
 }
-
+footer .card-author {
+  margin-top: 1rem;
+  padding: 2rem 0 2rem 0;
+  border-top: 1px solid #333;
+}
+footer .card-author .author{
+  color: white;
+}
+footer .card-author .author span{
+  color: var(--orange);
+}
+footer .card-author .payments{
+  text-align: end;
+}
+footer .card-author .card_btn_smooth{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+footer .card-author .card_btn_smooth .btn-smooth .fa-circle-chevron-up{
+  color: var(--orange);
+}
 .title{
   color: var(--gray-light);
   font-size: 1.5em;
@@ -411,7 +470,6 @@ footer{
   padding-top: 3em;
   padding-bottom: 1em;
 }
-
 .footer-links ul {
   list-style: none;
   margin: 0;
@@ -435,37 +493,18 @@ footer{
   color: var(--white);
   text-decoration: none;
 }
-
 .column{
   color: var(--gray-light);
 }
-
 .infos {
   text-transform: none;
 }
-
-.card-footer{
-  width: 90%;
-  margin: 0 auto;
-  flex-direction: row;
-}
-.line4{
-  height: 1px;
-  width: 90%;
-  margin: 0 auto;
-  border: 1px solid rgb(190, 189, 189);
-  overflow: visible;
-  margin-top: 4em;
-}
-
 .text-footer {
   padding-bottom: 1em;
 }
-
 .fa-location-dot, .fa-envelope, .fa-phone {
   color: var(--orange);
 }
-
 form {
   display: inline-flex;
 }
@@ -473,23 +512,20 @@ form .signup {
   background-color: var(--orange);
   border: 1px solid var(--orange);
   color: var(--gray);
-  padding: .4em 0 .4em 0;
+  padding: .3em 0 .3em 0;
   /* width: 5.5em; */
   margin-left: 18px;
   /* font-size: 1.06em; */
 }
-
 .barre-search {
   margin-top: 2em;
 }
-
 .sous-title{
   margin-top: 1em;
   color: var(--gray-light);
   font-size: 1.1em;
   font-weight: 400;
 }
-
 .fa-twitter,
 .fa-facebook-f,
 .fa-linkedin-in,
@@ -500,3 +536,23 @@ form .signup {
     padding: .9em;
     margin-right: -20px;
 }
+.author{
+  margin-top: 15px;
+}
+.payments{
+  text-align: right;
+}
+.btn-smooth{
+  color: var(--orange);
+  font-size: 0.9rem;
+  text-align: end;
+  padding: 1rem;
+}
+.btn-smooth::before {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-smooth i {
+  font-size: 2rem;/* Mettre le bouton qui remonte en haut de page*/
+}
+
+/* Fin section footer */

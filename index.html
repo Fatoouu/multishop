@@ -1,137 +1,136 @@
-        <!DOCTYPE html>
-      <html lang="fr">
-      <head>
-           <meta charset="UTF-8">
-           <meta http-equiv="X-UA-Compatible" content="IE=edge">
-           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <meta name="site" content="Multishop">
-           <meta name="auteur" content="Fatou">
-           <link rel="stylesheet" href="css/styleflexmultishop.css">
-           <link rel="stylesheet" href="css/flexbox.css">
-           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-           <title>Multishop</title>
-      </head>
-
+   <!DOCTYPE html>
+   <html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="site" content="Multishop">
+      <meta name="auteur" content="Fatou">
+      <link rel="stylesheet" href="css/styleflexmultishop.css">
+      <link rel="stylesheet" href="css/flexbox.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Multishop</title>
+   </head>
 <body>
-    <!-- First navbar -->
-    <nav class="navbar">
-          <div class="container space-between d-flex">
-             <div class="navbar__menu">
-                   <ul class="navbar__menu--list">
-                         <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">About</a></li>
-                         <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">Contact</a></li>
-                         <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">Help</a></li>
-                         <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">FAQs</a></li>
-                   </ul>
-             </div>
-             <div class="navbar__icons">
-                   <form action="" method="post">
-                         <select name="">
-                            <option>My account</option>
-                            <option value="login">Connexion</option>
-                            <option value="register">Inscription</option>
-                         </select>
-                         <select name="">
-                            <option value="usd">USD</option>
-                            <option value="euro">EURO</option>
-                            <option value="ru">RU</option>
-                         </select>
-                         <select name="">
-                            <option value="en">EN</option>
-                            <option value="fr">FR</option>
-                            <option value="it">IT</option>
-                            <option value="ES">ES</option>
-                         </select>
-                   </form>
-             </div>
-          </div>
-    </nav>
-    
-    <!-- Second navbar -->
-    <nav class="navbar2">
-       <div class="container o-auto">
-          <div class="row">
-             <div class="col-2">
-                <div class="row">
-                   <div class="col-6 multi p-0">
-                      <span>Multi</span>
-                   </div>
-                   <div class="col-6 shop">
-                      <span>Shop</span>
-                   </div>
-                </div>
-             </div>
-             <div class="col-8 form">
-                <div class="card__search o-auto">
-                   <form class=".card__search--form">
-                      <div class="search">
-                         <input type="text" class="input__search" name="search" placeholder="Rechercher un produit">
-                         <button type="submit" class="btn__search">
-                            <i class="fas fa-search"></i>
-                         </button>
-                      </div>
-                   </form>
-                </div>
-             </div>
-             <div class="col-2 service-customer">
-                <div class="row">
-                   <div class="col-12">
-                      <span class="service">Service client</span>
-                   </div>
-                   <div class="col-12">
-                      <span class="phone">+33 123 456 789</span>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </nav>
-    <!-- Third navbar -->
-    <nav class="navbar3">
-       <div class="container">
-          <div class="row">
-             <div class="col-3 navbar3__card--select">
-                <div class="row">
-                   <div class="col-6">
-                      <i class="fas fa-bars"></i> Catégories
-                   </div>
-                   <div class="col-6">
-                      <form action="">
-                         <div class="form__group--select">
-                            <select name="" id="select">
-                               <option></option>
-                               <option value="vh">Vêtements hommes</option>
-                               <option value="vf">Vêtements femmes</option>
-                               <option value="ve">Vêtements enfants</option>
-                               <option value="acc">Accessoires</option>
-                               <option value="montres">Montres</option>
-                               <option value="sacs">Sacs</option>
-                            </select>
-                         </div>
-                      </form>
-                   </div>
-                </div>
-             </div>
-             <div class="col-8 navbar3__card--link">
-                <ul class="navbar3__card--list">
-                   <li class="navbar3__card--item"><a class="link active" href="#" style="color: #FFD334;">Home</a></li>
-                   <li class="navbar3__card--item"><a class="link" href="#">Shop</a></li>
-                   <li class="navbar3__card--item"><a class="link" href="#">Shop Detail</a></li>
-                   <li class="navbar3__card--item"><a class="link" href="#">Page &nbsp;<i class="fa fa-chevron-down"></i></a></li>
-                   <li class="navbar3__card--item"><a class="link" href="#">Contact</a></li>
-                </ul>
-             </div>
-             <div class="col-1 navbar3__card--icons">
-                <div class="row">
-                   <div class="col-12 card-icons">
-                      <a href="#" class="icons-links"><i class="fas fa-heart"></i> <span>0</span></a>
-                      <a href="#" class="icons-links"><i class="fas fa-shopping-cart"></i> <span>0</span></a> 
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </nav>
+   <!-- First navbar -->
+   <nav class="navbar">
+         <div class="container space-between d-flex">
+            <div class="navbar__menu">
+                  <ul class="navbar__menu--list">
+                        <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">About</a></li>
+                        <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">Contact</a></li>
+                        <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">Help</a></li>
+                        <li class="navbar__menu--item"><a class="navbar__menu--link" href="#">FAQs</a></li>
+                  </ul>
+            </div>
+            <div class="navbar__icons">
+                  <form action="" method="post">
+                        <select name="">
+                           <option>My account</option>
+                           <option value="login">Connexion</option>
+                           <option value="register">Inscription</option>
+                        </select>
+                        <select name="">
+                           <option value="usd">USD</option>
+                           <option value="euro">EURO</option>
+                           <option value="ru">RU</option>
+                        </select>
+                        <select name="">
+                           <option value="en">EN</option>
+                           <option value="fr">FR</option>
+                           <option value="it">IT</option>
+                           <option value="ES">ES</option>
+                        </select>
+                  </form>
+            </div>
+         </div>
+   </nav>
+   
+   <!-- Second navbar -->
+   <nav class="navbar2">
+      <div class="container o-auto">
+         <div class="row">
+            <div class="col-2">
+               <div class="row">
+                  <div class="col-6 multi p-0">
+                     <span>Multi</span>
+                  </div>
+                  <div class="col-6 shop">
+                     <span>Shop</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-8 form">
+               <div class="card__search o-auto">
+                  <form class=".card__search--form">
+                     <div class="search">
+                        <input type="text" class="input__search" name="search" placeholder="Rechercher un produit">
+                        <button type="submit" class="btn__search">
+                           <i class="fas fa-search"></i>
+                        </button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="col-2 service-customer">
+               <div class="row">
+                  <div class="col-12">
+                     <span class="service">Service client</span>
+                  </div>
+                  <div class="col-12">
+                     <span class="phone">+33 123 456 789</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!-- Third navbar -->
+   <nav class="navbar3">
+      <div class="container">
+         <div class="row">
+            <div class="col-3 navbar3__card--select">
+               <div class="row">
+                  <div class="col-6">
+                     <i class="fas fa-bars"></i> Catégories
+                  </div>
+                  <div class="col-6">
+                     <form action="">
+                        <div class="form__group--select">
+                           <select name="" id="select">
+                              <option></option>
+                              <option value="vh">Vêtements hommes</option>
+                              <option value="vf">Vêtements femmes</option>
+                              <option value="ve">Vêtements enfants</option>
+                              <option value="acc">Accessoires</option>
+                              <option value="montres">Montres</option>
+                              <option value="sacs">Sacs</option>
+                           </select>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="col-8 navbar3__card--link">
+               <ul class="navbar3__card--list">
+                  <li class="navbar3__card--item"><a class="link active" href="#" style="color: #FFD334;">Home</a></li>
+                  <li class="navbar3__card--item"><a class="link" href="#">Shop</a></li>
+                  <li class="navbar3__card--item"><a class="link" href="#">Shop Detail</a></li>
+                  <li class="navbar3__card--item"><a class="link" href="#">Page &nbsp;<i class="fa fa-chevron-down"></i></a></li>
+                  <li class="navbar3__card--item"><a class="link" href="#">Contact</a></li>
+               </ul>
+            </div>
+            <div class="col-1 navbar3__card--icons">
+               <div class="row">
+                  <div class="col-12 card-icons">
+                     <a href="#" class="icons-links"><i class="fas fa-heart"></i> <span>0</span></a>
+                     <a href="#" class="icons-links"><i class="fas fa-shopping-cart"></i> <span>0</span></a> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </nav>
 
    <!-- Début section bannière photo 1 -->
    <div class="container-fluid" style="background-color:#f5f5f5;">
@@ -142,459 +141,470 @@
             </div>
             <div class="col-4 right">
                <div class="row">
-                  <div class="col-12">
+                  <div class="col-12 banner">
                      <img src="images/offer-1.jpg" alt="image" class="fluid offer-1">
+                     <p class="save">SAVE 20%</p>
+                     <h1 class="specialoffer">Special Offer</h1>
+                     <p class="shopnow">Shop Now</p>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 banner">
                      <img src="images/offer-2.jpg" alt="image" class="fluid offer-2">
+                     <p class="save">SAVE 20%</p>
+                     <h1 class="specialoffer">Special Offer</h1>
+                     <p class="shopnow">Shop Now</p>
                   </div>
                </div>
             </div>
          </div>
       </div>    
-      <!-- Fin section bannière photo 1 -->
+         <!-- Fin section bannière photo 1 -->
 
+         <!-- Debut section quality compagny -->
+         <div class="my-row">
+            <div class="check">
+               <div class="col-3 quality-product">
+                  <i class="fa-solid fa-check"></i> Quality product 
+               </div>
+               <div class="col-3 free-shipping" >
+                  <i class="fa-solid fa-truck-fast"></i> free shipping 
+               </div>
+               <div class="col-3 day-return">
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i> 14-Day Return
+               </div>
+               <div class="col-3 support">
+                  <i class="fa-solid fa-phone-volume"></i> 24/7 Support
+               </div>            
+            </div>
+         </div>   
+         <!-- Fin section quality compagny -->
 
-      
-      <!-- Debut section quality compagny -->
-      <div class="my-row">
-         <div class="check">
-            <div class="col-3 quality-product">
-               <i class="fa-solid fa-check"></i> Quality product 
+         <!-- Début section catégories -->
+         <hr class="line1">
+         <div class="my-row categorie"> <!-- Premiere ligne -->
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-1.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
             </div>
-            <div class="col-3 free-shipping" >
-               <i class="fa-solid fa-truck-fast"></i> free shipping 
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-2.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
             </div>
-            <div class="col-3 day-return">
-               <i class="fa-solid fa-arrow-right-arrow-left"></i> 14-Day Return
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-3.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
             </div>
-            <div class="col-3 support">
-               <i class="fa-solid fa-phone-volume"></i> 24/7 Support
-            </div>            
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-4.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
          </div>
-      </div>   
-      <!-- Fin section quality compagny -->
+         <div class="my-row categorie"> <!-- Deuxieme ligne -->
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-4.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-3.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-2.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-1.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="my-row categorie" style="margin-bottom: 5rem;"> <!-- Troisieme ligne -->
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-2.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-1.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-4.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3 rectangle">
+               <div class="row">
+                  <div class="col-4">
+                     <img src="images/cat-3.jpg" alt="image">
+                  </div>
+                  <div class="col-8">
+                     <p class="titre-1"> Category name </p><br>
+                     <p class="titre-2"> 100 products </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Fin section catégories -->
 
-      <!-- Début section catégories -->
-      <hr class="line1">
-      <div class="my-row categorie"> <!-- Premiere ligne -->
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-1.jpg" alt="image">
+         <!-- Début section featured products -->
+         <hr class="line2">
+         <div class="my-row featuredproducts">
+            <div class="my-row futur-photo1"> <!--Première ligne -->
+               <div class="col-3 rating">
+                  <img src="images/product-1.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
+               <div class="col-3 rating">
+                  <img src="images/product-2.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-2.jpg" alt="image">
+               <div class="col-3 rating">
+                  <img src="images/product-3.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-3.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-4.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="my-row categorie"> <!-- Deuxieme ligne -->
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-4.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
+               <div class="col-3 rating">
+                  <img src="images/product-4.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-3.jpg" alt="image">
+         <div class="my-row featuredproducts">
+            <div class="my-row futur-photo1"> <!--Deuxieme ligne -->
+               <div class="col-3 rating">
+                  <img src="images/product-5.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
+               <div class="col-3 rating">
+                  <img src="images/product-6.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-2.jpg" alt="image">
+               <div class="col-3 rating">
+                  <img src="images/product-7.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-1.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="my-row categorie" style="margin-bottom: 5rem;"> <!-- Troisieme ligne -->
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-2.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-1.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-4.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
+               <div class="col-3 rating">
+                  <img src="images/product-8.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="col-3 rectangle">
-            <div class="row">
-               <div class="col-4">
-                  <img src="images/cat-3.jpg" alt="image">
-               </div>
-               <div class="col-8">
-                  <p class="titre-1"> Category name </p><br>
-                  <p class="titre-2"> 100 products </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Fin section catégories -->
+         <!-- Fin section featured products -->
 
-      <!-- Début section featured products -->
-      <hr class="line2">
-      <div class="my-row featuredproducts">
-         <div class="my-row futur-photo1"> <!--Première ligne -->
-            <div class="col-3 rating">
-               <img src="images/product-1.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
+         <!-- Début section banniere photo 2 -->
+         <div class="my-row">
+            <div class="banniere-2">
+               <div class="col-6 offer-left banner">
+                  <img src="images/offer-1.jpg" alt="image">
+                  <p class="save2">SAVE 20%</p>
+                  <h1 class="specialoffer2">Special Offer</h1>
+                  <p class="shopnow2">Shop Now</p>
                </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-2.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-3.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-4.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
+               <div class="col-6 offer-right banner">
+                  <img src="images/offer-2.jpg" alt="image">
+                  <p class="save2">SAVE 20%</p>
+                  <h1 class="specialoffer2">Special Offer</h1>
+                  <p class="shopnow2">Shop Now</p>
+               </div> 
             </div>
          </div>
-      </div>
-      <div class="my-row featuredproducts">
-         <div class="my-row futur-photo1"> <!--Deuxieme ligne -->
-            <div class="col-3 rating">
-               <img src="images/product-5.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-6.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-7.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-8.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Fin section featured products -->
+         <!--Fin section banniere photo 2 -->
 
-      <!-- Début section banniere photo 2 -->
-      <div class="my-row">
-         <div class="banniere-2">
-            <div class="col-6 offer-left">
-               <img src="images/offer-1.jpg" alt="image">
+         <!-- Début section recent products -->
+         <hr class="line3">
+         <div class="my-row featuredproducts">
+            <div class="my-row futur-photo1"> <!--Première ligne -->
+               <div class="col-3 rating">
+                  <img src="images/product-1.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-2.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-3.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-4.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
             </div>
-            <div class="col-6 offer-right">
-               <img src="images/offer-2.jpg" alt="image">
-            </div> 
          </div>
-      </div>
-      <!--Fin section banniere photo 2 -->
+         <div class="my-row featuredproducts">
+            <div class="my-row futur-photo1"> <!--Deuxieme ligne -->
+               <div class="col-3 rating">
+                  <img src="images/product-5.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-6.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-7.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+               <div class="col-3 rating">
+                  <img src="images/product-8.jpg" alt="image">
+                  <p class="titre">Products name Goes Here</p>
+                  <p class="prix">$123.00</p>
+                  <p class="ancien-prix">$123.00</p>
+                  <div class="stars">
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star gold"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star">(99)</i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Fin section recent products-->
 
-      <!-- Début section recent products -->
-      <hr class="line3">
-      <div class="my-row featuredproducts">
-         <div class="my-row futur-photo1"> <!--Première ligne -->
-            <div class="col-3 rating">
-               <img src="images/product-1.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
+         <!-- Début section logo -->
+         <div class="container">
+            <div class="my-row card_logo">
+               <div class="col-2"> 
+                  <img class="logo" src="images/vendor-4.jpg" alt="logo">
                </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-2.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
+               <div class="col-2"> 
+                  <img class="logo" src="images/vendor-5.jpg" alt="logo">
                </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-3.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
+               <div class="col-2">
+                  <img class="logo" src="images/vendor-6.jpg" alt="logo">
                </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-4.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
+               <div class="col-2">
+                  <img class="logo" src="images/vendor-7.jpg" alt="logo">
+               </div>
+               <div class="col-2">
+                  <img class="logo" src="images/vendor-8.jpg" alt="logo">
+               </div>
+               <div class="col-2">
+                  <img class="logo" src="images/vendor-1.jpg" alt="logo">
                </div>
             </div>
          </div>
-      </div>
-      <div class="my-row featuredproducts">
-         <div class="my-row futur-photo1"> <!--Deuxieme ligne -->
-            <div class="col-3 rating">
-               <img src="images/product-5.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-6.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-7.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-            <div class="col-3 rating">
-               <img src="images/product-8.jpg" alt="image">
-               <p class="titre">Products name Goes Here</p>
-               <p class="prix">$123.00</p>
-               <p class="ancien-prix">$123.00</p>
-               <div class="stars">
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star gold"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star">(99)</i>
-               </div>
-            </div>
-         </div>
-      </div>
-       <!-- Fin section recent products-->
-
-      <!-- Début section logo -->
-      <div class="my-row">
-         <div class="logo">
-            <div class="col-2"> 
-               <img src="images/vendor-4.jpg" alt="logo">
-            </div>
-            <div class="col-2"> 
-               <img src="images/vendor-5.jpg" alt="logo">
-            </div>
-            <div class="col-2">
-               <img src="images/vendor-6.jpg" alt="logo">
-            </div>
-            <div class="col-2">
-               <img src="images/vendor-7.jpg" alt="logo">
-            </div>
-            <div class="col-2">
-               <img src="images/vendor-8.jpg" alt="logo">
-            </div>
-            <div class="col-2">
-               <img src="images/vendor-1.jpg" alt="logo">
-            </div>
-         </div>
-      </div>
-       <!-- Fin section logo -->
+         <!-- Fin section logo -->
    </div>
 
-    <!-- Footer -->
-      <footer>
-         <div class="my-row card-footer">
+   <!-- Footer -->
+   <footer>
+      <div class="container">
+         <div class="my-row pb-10">
             <div class="col-3">
                <h3 class="title">GET IN TOUCH</h3>
                <p class="text-footer">Blanditiis pariatur nobis molestiae laboriosam culpa ipsam accusamus vero placeat facilis! Alias voluptates debitis tenetur sunt.</p>
-               <p class="infos"><i class="fa fa-location-dot "> </i>123 Street, New York, USA</p><br>
+               <p class="infos"><i class="fa fa-location-dot "> </i> 123 Street, New York, USA</p><br>
                <p class="infos"><i class="fa fa-envelope "></i> info@example.com</p><br>
                <p class="infos"><i class="fa fa-phone "></i> +012 345 67890</p>
             </div>
@@ -625,12 +635,12 @@
                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut enim porro, quae non nostrum...</p>
                <div class="my-row barre-search">
                   <form>
-                      <div class="col-8">
-                          <input type="search" name="email" class="enteryourmail" placeholder="Your Email Address">
-                      </div>
-                      <div class="col-4">
-                          <p class="signup">Sign Up</p>
-                      </div>
+                     <div class="col-8">
+                        <input type="search" name="email" class="enteryourmail" placeholder="Your Email Address">
+                     </div>
+                     <div class="col-4">
+                        <p class="signup">Sign Up</p>
+                     </div>
                   </form>            
                </div>
             <h4 class="sous-title">FOLLOW US</h4>
@@ -642,22 +652,27 @@
             </div>
             </div>
          </div>
-         
-         <hr class="line4">
-      </footer>         
-      
 
-
-
-
+         <div class="my-row card-author">
+            <div class="col-8 author">
+               &copy; <span>fatou.com.</span> All right Reserved. Designed by <span>Fatou</span>
+            </div>
+            <div class="col-3 payments">
+               <img src="images/payments.png" alt="images">
+            </div>
+            <div class="col-1 card_btn_smooth">
+               <a href="#top" class="btn-smooth"><i class="fa-solid fa-circle-chevron-up"></i></a>
+            </div>
+         </div>
+      </div>
+   </footer>     
+   <!--Fin section footer  -->
 
     <!-- Librairy js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js"
-        integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg=="
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+   <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
  </body>
  </html>
