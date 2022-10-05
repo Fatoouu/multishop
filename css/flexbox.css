@@ -191,6 +191,9 @@
      footer .pb-10{
           flex-direction: column;
      }
+     .banniere-2 {
+          flex-direction: column;
+     }
   }
   /* Taille des tablets */
   @media screen and (min-width: 768px) and (max-width:884px) {
@@ -213,6 +216,9 @@
           flex-direction: column;
           width: 50%;
           margin-left: 25%;
+     }
+     .banniere-2 {
+          flex-direction: column;
      }
      footer .pb-10{
           flex-direction: column;
